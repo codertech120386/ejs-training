@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Single Product</h1>
-    <p><%= product.name %></p>
+    <p><%= product.title %></p>
     <% product.image_urls.forEach(image => { %>
     <img src="<%= image %>" alt="<%= product.title %>" />
     <% }) %>

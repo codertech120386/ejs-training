@@ -3,7 +3,7 @@
     <div class="fontColor">
       <% products.forEach(product => { %>
       <p onclick="clickedProductName(`<%= JSON.stringify(product) %>`)">
-        <%= product.name %>
+        <%= product.title %>
       </p>
       <p><%= product.price %></p>
       <p>
