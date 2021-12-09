@@ -1,0 +1,20 @@
+<%- include('_header', {title: "Create Products"}) -%>
+  <body>
+    <form action="/products/single" method="post" enctype="multipart/form-data">
+      <input
+        type="text"
+        name="title"
+        value=""
+        placeholder="Enter Name of Product"
+      />
+      <input
+        type="number"
+        name="price"
+        value=""
+        placeholder="Enter Price of Product"
+      />
+      <input type="file" name="productImages" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
